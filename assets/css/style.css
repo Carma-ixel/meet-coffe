@@ -1,0 +1,194 @@
+body{
+  background: white;
+  padding: 0;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color:#000f08;
+  border: 0;
+}
+
+h1{
+  font-weight: 800;
+  font-size: 2.75em;
+  margin: 30px 0px 30px 0px;
+}
+p{
+  font-weight: 400;
+}
+
+h2{
+  font-weight: 700;
+  font-size: 2.3em;
+  margin: 0;
+}
+
+h3{
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0;
+}
+
+h4{
+  font-weight: 400;
+  font-size: 1.5em;
+  margin: 0;
+}
+
+h5{
+  font-weight: 400;
+  font-size: 0.9em;
+  margin: 0;
+}
+
+.negrito{
+  background: #000f08;
+  color: #ffff;
+}
+
+ul{
+  margin: 0 auto;
+  position: fixed;
+  background: #000f08;
+  color: #ffff;
+  width: 100vw;
+  text-align: left;
+  top: 0px;
+}
+
+nav li{
+  display: inline-block;
+  text-decoration-color: white;
+  padding-bottom: 1.12rem;
+  padding-top: 1.12rem;
+  margin-left: 35px;
+  color: white;
+  vertical-align: middle;
+}
+
+ a{
+  color:white;
+  text-decoration: none;
+}
+
+.color-black{
+    text-decoration: none;
+    color: #000f08;
+}
+
+.icono {
+  width: 2rem;
+}
+
+.icono svg {
+  fill: #ffffff;
+}
+
+.hero-hero{
+background-image: url(../img/bg-hero.png);
+background-repeat: no-repeat;
+background-size: cover;
+width: 80%;
+height: 50%;
+text-align: right;
+margin: 0;
+padding: 10%;
+color:white;
+text-shadow: 0.12 0.12 0.12 #707070;
+}
+
+.lugar{
+  padding: 3%;
+  text-align: center;
+}
+
+.lugar-img{
+  width: 27em;
+  padding: 2rem;
+}
+
+.charlas{
+  padding: 4.125rem;
+  background-color: #a4452c;
+  color:white;
+  line-height: 25px;
+  text-align: left;
+  white-space: nowrap;
+  margin: 0;
+}
+
+.title-char{
+  margin-top: 0.5em;
+}
+
+.rafaela{
+  width: 25%;
+  vertical-align: middle;
+}
+
+.charlas-centro{
+  width: 68%;
+  margin: 0 auto;
+}
+.text-char{
+  width: 75%;
+  vertical-align: middle;
+  margin-left: 2em;
+  margin-right: 2em;
+  white-space: normal;
+}
+.rafaela, .evento, .text-char{
+  display: inline-block;
+}
+
+#eventos{
+  margin: 2.9em 2.9em;
+
+}
+.evento{
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 2.5rem;
+}
+
+.event-img{
+  width: 70%;
+  margin-bottom: 2rem;
+}
+
+.content{
+background: #ffffff;
+color: #000f08;
+padding-left: 16em;
+padding-right: 16em;
+margin: 2em 16em 4em 16em;
+}
+
+.title{
+  text-align: left;
+  margin-top: 2em;
+}
+.content p{
+text-align: justify;
+margin: 10px;
+line-height: 26px;
+}
+
+.evento-anunciado{
+text-align: left;
+padding-left: 16em;
+padding-right: 16em;
+margin: 2em 16em 2em 16em;
+}
+.evento-anunciado img{
+  width: 40vw;
+}
+
+footer{
+  background-color: #000f08;
+  color: white;
+  padding: 2.4em;
+}
+footer i{
+    margin: 0 0.25em 0.5em 0.25em;
+  }
